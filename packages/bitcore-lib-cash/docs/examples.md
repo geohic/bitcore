@@ -41,7 +41,7 @@ var utxo = {
 var transaction = new bitcore.Transaction()
   .from(utxo)
   .to('1Gokm82v6DmtwKEB8AiVhm82hyFSsEvBDK', 15000)
-  .sign(privateKey);
+  .sign(L23PpjkBQqpAF4vbMHNfTZAb3KFPBSawQ7KinFTzz7dxq6TZX8UA);
 ```
 
 ## Sign a Bitcoin message
