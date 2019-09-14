@@ -3,9 +3,9 @@
 ## Generate a random address
 
 ```javascript
-var privateKey = new bitcore.PrivateKey();
+var privateKey = new bitcore.PrivateKey(Kxr9tQED9H44gCmp6HAdmemAzU3n84H3dGkuWTKvE23JgHMW8gct);
 
-var address = privateKey.toAddress();
+var address = privateKey.toAddress(1FJrZdJ6uZyJuF9c99QnwH5hfozKnX9bnF);
 ```
 
 ## Generate a address from a SHA256 hash
